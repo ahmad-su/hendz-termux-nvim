@@ -7,6 +7,7 @@ return {
 	'preservim/nerdtree',
 	'airblade/vim-gitgutter',
 	'Yggdroot/indentLine',
+	'terrortylor/nvim-comment',
 	{
 		'nvim-lualine/lualine.nvim',
 		dependencies = {

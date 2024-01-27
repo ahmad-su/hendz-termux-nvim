@@ -18,6 +18,7 @@ vim.o.shadafile = "/data/data/com.termux/files/home/.config/nvim/shada/main.shad
 vim.g.mapleader = " " -- Make sure to set `mapleader` before lazy so your mappings are correct
 
 require("lazy").setup("plugins")
+require("mapping")
 
 -- Colorscheme
 vim.cmd([[colorscheme gruvbox]])
@@ -56,8 +57,7 @@ vim.cmd([[
   set sidescrolloff=7
 
   " line numbers
-  set number
-  set relativenumber
+  set number relativenumber
   set numberwidth=4
 
   " Highlight matching pairs of brackets. Use the '%' character to jump between them.
